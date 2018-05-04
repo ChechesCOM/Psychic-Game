@@ -26,6 +26,4 @@ document.onkeyup = function(event) {
         guessesLeft--;
 
     }
-
-    
 }

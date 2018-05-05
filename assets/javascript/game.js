@@ -14,14 +14,14 @@ document.onkeyup = function (event) {
         wins++;
         alert("You win");
         guessesLeft = 9;
-        guesses.lenght = 0;
+        guesses = [];
     }
 
     else if (guessesLeft == 0) {
         losses++;
         alert("You lose");
         guessesLeft = 9;
-        guesses.lenght = 0;  // I dont know how to make the letter guess reset :S
+        guesses = [];  
     }
 
     else if (playerGuess !== computerGuess) {
